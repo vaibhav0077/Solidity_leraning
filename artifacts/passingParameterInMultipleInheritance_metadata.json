@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"passingParamterInMultipleInheritance.sol": "passingParameterInMultipleInheritance"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"passingParamterInMultipleInheritance.sol": {
+			"keccak256": "0x950df84a79b61dc134b2e6f947d69560b496d2c30dfec7c7bb2b40b6bcd797c0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be1f6a73eec9d0f9528260db5b364a5f38fe7f24d2a7c125a881af9a9654a20a",
+				"dweb:/ipfs/QmWUBDARCu4Qrf59GV8eejREJRTkL2FWV2aqNKhFNWw4kh"
+			]
+		}
+	},
+	"version": 1
+}

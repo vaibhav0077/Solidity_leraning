@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+
+[remote "vaibhav"]
+	fetch = +refs/heads/*:refs/remotes/vaibhav/*
+	url = https://github.com/vaibhav0077/Solidity-Programs.git

@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "puchvalueintemp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setvalue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tem1",
+				"outputs": [
+					{
+						"internalType": "bytes3",
+						"name": "",
+						"type": "bytes3"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tem2",
+				"outputs": [
+					{
+						"internalType": "bytes5",
+						"name": "",
+						"type": "bytes5"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tem3",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bytes_dataStructure,sol.sol": "bytesDataStructureDene"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bytes_dataStructure,sol.sol": {
+			"keccak256": "0x675576aff44f4a18f4667aa6d1672556cba64d0cae676ccd582f8e791316eab1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8d5ad3b0f91491afec7f2a29444f5949cd2bfe51ef185e96ff4bbd939e294fa7",
+				"dweb:/ipfs/QmeZqH2gbZF42uWmQLx9B4L3nWzfMBH4dztKvDg5hhpEeQ"
+			]
+		}
+	},
+	"version": 1
+}

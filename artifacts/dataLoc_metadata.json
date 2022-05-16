@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "memoryEx",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storageEx",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"callData_implemenattaion.sol": "dataLoc"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"callData_implemenattaion.sol": {
+			"keccak256": "0xe50cbca11d26e2abd9434e4a683dfcf0cc78831f3f6fffc29425f06d9cbafaaa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8eb6ad23993150844e4054a00934814135c35cf9675b8a26e6ad01310b926316",
+				"dweb:/ipfs/QmX1aVkYgCyR5vhkzqw68AZfEyJdPPYhS4PnRfWHYACGZT"
+			]
+		}
+	},
+	"version": 1
+}

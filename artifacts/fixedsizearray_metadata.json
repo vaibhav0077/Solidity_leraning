@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "arrinfunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getarr",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fixedsizearray.sol": "fixedsizearray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fixedsizearray.sol": {
+			"keccak256": "0x771a2c90a6cf4ed1145d5b2e728145292edb244603c3bd8af6af60c5dd85b30a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f969566d3ab6b0cff39c43740b9e5fbeb97ef300a256dd901d6a6f88658e66de",
+				"dweb:/ipfs/QmchLj45nBjErSsmQhhV46aNbio73XdamKMABw6uwwUpvc"
+			]
+		}
+	},
+	"version": 1
+}

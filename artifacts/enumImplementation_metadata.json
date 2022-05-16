@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "resetStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setRej",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum enumImplementation.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum enumImplementation.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum_implementation.sol": "enumImplementation"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum_implementation.sol": {
+			"keccak256": "0x0df8d1bf128ab9915372de6303d73c74d67851c54bd1742937754bd93832fec3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c45b66575deca008ea8315d8976b10e5e5a242db8c182e55dc284c5740ba94b2",
+				"dweb:/ipfs/Qmbv24Mo6N49sd6yUHpWc7qwoie6hWGFiaY34hiZBaTcjN"
+			]
+		}
+	},
+	"version": 1
+}

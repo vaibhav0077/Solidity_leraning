@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"send_eth.sol": "getEth"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"send_eth.sol": {
+			"keccak256": "0xda9fd6259e667626674f78aa883cc3d8b3a0bcb14044cf7738702e31b9677a15",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7a4ec42a4ba94e965eb288cf5c7cf91b1593c7ec72d2a24a7f1c62b5ad21f892",
+				"dweb:/ipfs/QmS8bZzNDYUqznkdt6nzPn7BTRvAZMjvZomLtJECyrpA41"
+			]
+		}
+	},
+	"version": 1
+}
